@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_app6.test1</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>test1</name>
+        <script><![CDATA[var test1 = Class.create();
+test1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'test1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-29 00:20:09</sys_created_on>
+        <sys_id>5cbe2dc253123300cf70ddeeff7b12b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1</sys_name>
+        <sys_package display_value="app6" source="sn_app6">567d658253123300cf70ddeeff7b1247</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="app6">567d658253123300cf70ddeeff7b1247</sys_scope>
+        <sys_update_name>sys_script_include_5cbe2dc253123300cf70ddeeff7b12b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-29 00:20:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
